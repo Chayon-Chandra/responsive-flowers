@@ -1,0 +1,40 @@
+@media (max-width: 575.98px) {
+   .menu ul{
+         display: none;
+   }
+   .banner-info{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .banner-text{
+    margin-top: 30px;
+   }
+
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+
+}

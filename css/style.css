@@ -1,0 +1,54 @@
+@import "tailwindcss";
+/* fonts */
+@font-face {
+    font-family:Inter-Bold;
+    src: url(../fonts/Inter-Bold.otf);
+}
+@font-face {
+    font-family:Inter-Medium;
+    src: url(../fonts/Inter-Medium.otf);
+}
+@font-face {
+    font-family:Inter-Regular;
+    src: url(../fonts/Inter-Regular.otf);
+}
+@font-face {
+    font-family:Inter-SemiBold;
+    src: url(../fonts/Inter-SemiBold.otf);
+}
+@font-face {
+    font-family:NotoSerif-Bold;
+    src: url(../fonts/NotoSerif-Bold.ttf);
+}
+body{
+    font-family: var(--font-inter-regular);
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: #F5F8FF;
+}
+:root{
+    --font-noto-bold:NotoSerif-Bold;
+    --font-inter-regular:Inter-Regular;
+    --black-color:#000000;
+    --vivid-orange-color:#E95A08;
+}
+/* header section start  */
+.header-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.menu ul li a:hover{
+    color: var(--vivid-orange-color);
+    transition-duration: .3s;
+    border-bottom: 1px solid #E95A08;
+}
+.banner-text h1{
+    margin-bottom: 20px;
+    font-family: var(--font-noto-bold);
+    color: var(--black-color);
+}
+.banner-text h1 span{
+    color: var(--vivid-orange-color);
+}
+/* header section end */
