@@ -20,6 +20,9 @@
     font-family:NotoSerif-Bold;
     src: url(../fonts/NotoSerif-Bold.ttf);
 }
+img{
+    width: 100%;
+}
 body{
     font-family: var(--font-inter-regular);
     color: var(--black-color);
@@ -28,10 +31,14 @@ body{
     background-color: #F5F8FF;
 }
 :root{
+    --inter-semibold:Inter-SemiBold;
     --font-noto-bold:NotoSerif-Bold;
     --font-inter-regular:Inter-Regular;
+    --font-inter-medium:Inter-Medium;
+    --font-inter-bold:Inter-Bold;
     --black-color:#000000;
     --vivid-orange-color:#E95A08;
+    --white-color:#ffffff;
 }
 /* header section start  */
 .header-container{
@@ -52,3 +59,55 @@ body{
     color: var(--vivid-orange-color);
 }
 /* header section end */
+/* Our Plants section start */
+#our{
+    margin: 30px 0 50px 0;
+}
+.our-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.our-plan{
+    margin: 50px 0;
+}
+.our-plan-item{
+    margin-top: 20px;
+}
+.our-plan h2{
+    font-family: var(--font-noto-bold);
+    color: var(--vivid-orange-color);   
+}
+.our-plan h2 span{
+    color: var(--black-color);
+}
+.our-plan-item{
+    text-align: center;
+  
+}
+.our-plan-item h3{
+    margin-top: 30px;
+    font-family: var(--font-inter-medium);
+    color: var(--black-color);
+    font-weight: 500;
+}
+.our-plan-item h4{
+    margin: 10px 0;
+    font-family: var(--font-inter-bold);
+    color: var(--black-color);
+    font-weight: 700;
+}
+.our-plan-item button{
+    padding: 10px 0;
+    font-family: var(--inter-semibold);
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--vivid-orange-color);
+      width: 100%;
+}
+.our-plan-item button:hover{
+    color: var(--vivid-orange-color);
+    background-color: var(--black-color);
+    transition-duration: .5s;
+}
+/* Our Plants section end */
