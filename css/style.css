@@ -25,7 +25,7 @@ img{
 }
 body{
     font-family: var(--font-inter-regular);
-    color: var(--black-color);
+    color: #6B7280;
     font-size: 1.25rem;
     font-weight: 400;
     background-color: #F5F8FF;
@@ -277,3 +277,43 @@ form button:hover{
     text-decoration: .3s;
 }
 /* form section end */
+/* footer section start */
+footer{
+    margin: 50px 0;
+}
+.footer-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    width:25%;
+}
+.footer-logo a img{
+    margin-bottom: 15px;
+    width: 50%;
+}
+.footer-home ul li{
+    margin-bottom: 15px;
+}
+.footer-features ul li {
+    margin-bottom: 15px;
+}
+.footer-icon ul{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
+}
+.footer-home ul li a:hover{
+    color: var(--vivid-orange-color);
+    border-bottom: 1px solid #E95A08;
+    transition-duration: .3s;
+}
+.footer-features ul li a:hover{
+    color: var(--vivid-orange-color);
+    border-bottom: 1px solid #E95A08;
+    transition-duration: .3s;
+}
+/* footer section end */

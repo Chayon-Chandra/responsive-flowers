@@ -9,6 +9,9 @@
     .banner-text{
          margin-top: 30px;
    }
+   .banner-text h1{
+    font-size: 2.5rem;
+   }
     .our-plan p > br{
         display: none;
    }
@@ -62,6 +65,16 @@
     form input{
         width: 60%;
     }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-logo{
+        margin: 10px 0 30px ;
+        width:100%;
+    }
+    .footer-icon ul{
+        justify-content: start;
+    }
     
 
 
@@ -70,6 +83,13 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 992px) {
+     .banner-info{
+        display: flex;
+        flex-direction: column-reverse;
+   }
+   .banner-text{
+    margin-top: 40px;
+   }
     .our-plan p > br{
         display: none;
    }
@@ -79,7 +99,16 @@
    .form-container{
         padding: 150px 0;
     }
-
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        width: 25%;
+    }
+    .footer-icon ul{
+       flex-direction: column;
+    }
 
 
 }
