@@ -49,7 +49,20 @@
     .latest-overlay h3{
         font-size: 2rem;
     }
-
+    .form-container{
+        padding: 100px 0;
+    }
+    .form-container h2{
+        font-size: 1.75rem;
+    }
+    form button{
+        text-align: center;
+        display: inline-block;
+    }
+    form input{
+        width: 60%;
+    }
+    
 
 
 
@@ -63,6 +76,9 @@
    .badge{
     display: none;
    }
+   .form-container{
+        padding: 150px 0;
+    }
 
 
 

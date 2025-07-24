@@ -186,7 +186,7 @@ body{
 .bloom-overlay{
     padding: 99px 0;
     text-align: center;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .4);
      border-radius: 15px;
 }
 .bloom-overlay h3{
@@ -198,7 +198,7 @@ body{
 .ana-overlay{
     padding: 95px 0;
     text-align: center;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .4);
      border-radius: 15px;
 }
 .ana-overlay h3{
@@ -232,8 +232,48 @@ body{
 .latest-overlay{
     text-align: center;
     padding: 222px 0;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .4);
     border-radius: 15px;
 }
-
 /* Latest  Deals section end */
+/* form section start */
+#form{
+    margin: 50px 0;
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-container{
+    padding: 250px 0;
+}
+.form-container h2{
+    margin-bottom: 20px;
+    font-family: var(--font-noto-bold);
+    color: var(--white-color);
+}
+form{
+    text-align: center;
+}
+form input{
+    padding: 5px 20px 5px 15px;
+    font-size: 1rem;
+    width: 50%;
+    background-color: var(--white-color);
+    outline: none;
+    height: 50px;
+}
+form button{
+    margin-left: -10px;
+    height: 51px;
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: var(--white-color);
+    background-color: var(--vivid-orange-color);
+    cursor: pointer;
+}
+form button:hover{
+    background-color: var(--black-color);
+    text-decoration: .3s;
+}
+/* form section end */
