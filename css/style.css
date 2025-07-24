@@ -40,6 +40,19 @@ body{
     --vivid-orange-color:#E95A08;
     --white-color:#ffffff;
 }
+/* shared class */
+.btn-b{
+    font-family: var(--inter-semibold);
+    color: var(--white-color);
+    font-size: 1rem;
+    border-bottom: 2px  solid #ffffff;
+    cursor: pointer;
+}
+.btn-b:hover{
+    color: #E95A08;
+    border-bottom: 2px  solid #E95A08;
+    text-decoration: .3s;
+}
 /* header section start  */
 .header-container{
     margin: 0 auto;
@@ -143,3 +156,84 @@ body{
     line-height: 60px;
 }
 /* Flower & Plants section end */
+/* Latest  Deals section start */
+#latest{
+    margin: 50px 0;
+}
+.latest-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.latest-img-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+.latest-img-right{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.bloom{
+    width: 100%;
+    background-image: url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.bloom-overlay{
+    padding: 99px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+     border-radius: 15px;
+}
+.bloom-overlay h3{
+    font-family: var(--font-noto-bold);
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.ana-overlay{
+    padding: 95px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+     border-radius: 15px;
+}
+.ana-overlay h3{
+    font-family: var(--font-noto-bold);
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.ana{
+    width: 100%;
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+.latest-img-left{
+    width:65%;
+    background-image: url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.latest-overlay h3{
+    font-family: var(--font-noto-bold);
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.latest-overlay{
+    text-align: center;
+    padding: 222px 0;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 15px;
+}
+
+/* Latest  Deals section end */

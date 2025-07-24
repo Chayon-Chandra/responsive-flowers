@@ -4,31 +4,51 @@
    }
      .banner-info{
         display: flex;
-         flex-direction: column-reverse;
+        flex-direction: column-reverse;
    }
     .banner-text{
-     margin-top: 30px;
+         margin-top: 30px;
    }
     .our-plan p > br{
         display: none;
    }
      #flower{
         margin: 50px 0 0px 0;
-}
+    }
     .flower-info{
         gap: 1rem;
     }
     .flower-text{
          padding:10px ;
-}   .flower-text h2{
+    }   
+    .flower-text h2{
          margin: 20px 0;
-}
+    }
     .flower-text br{
          display: none;
-}
+    }
    .badge{
-    display: none;
+        display: none;
    }
+   .latest-img-container{
+        flex-direction: column;
+   }
+   .latest-img-right{
+        width: 100%;
+        flex-direction: column;
+   }
+   .latest-img-left{
+         width: 100%;
+   }
+   .latest-overlay{
+        padding: 80px 0;
+   }
+   #latest{
+     margin: 10px 0;
+    }
+    .latest-overlay h3{
+        font-size: 2rem;
+    }
 
 
 
