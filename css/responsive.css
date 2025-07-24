@@ -1,15 +1,32 @@
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
    .menu ul{
          display: none;
    }
-   .banner-info{
-    display: flex;
-    flex-direction: column-reverse;
+     .banner-info{
+        display: flex;
+         flex-direction: column-reverse;
    }
-   .banner-text{
-    margin-top: 30px;
+    .banner-text{
+     margin-top: 30px;
    }
-   .our-plan p > br{
+    .our-plan p > br{
+        display: none;
+   }
+     #flower{
+        margin: 50px 0 0px 0;
+}
+    .flower-info{
+        gap: 1rem;
+    }
+    .flower-text{
+         padding:10px ;
+}   .flower-text h2{
+         margin: 20px 0;
+}
+    .flower-text br{
+         display: none;
+}
+   .badge{
     display: none;
    }
 
@@ -19,29 +36,32 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 992px) {
     .our-plan p > br{
         display: none;
+   }
+   .badge{
+    display: none;
    }
 
 
 
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
 
-    .our-plan p > br{
-        display: none;
-   }
-
-
-}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-
+    .flower-text{
+    padding:0;   
+}
+    .flower-info{
+        gap: 5rem;
+    }
+    .flower-text ul li{
+        font-size: 1.25rem;
+    }
+    
 
 
 }

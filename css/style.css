@@ -82,7 +82,6 @@ body{
 }
 .our-plan-item{
     text-align: center;
-  
 }
 .our-plan-item h3{
     margin-top: 30px;
@@ -103,7 +102,8 @@ body{
     font-size: 1rem;
     font-weight: 600;
     background-color: var(--vivid-orange-color);
-      width: 100%;
+    width: 100%;
+    text-transform: uppercase;
 }
 .our-plan-item button:hover{
     color: var(--vivid-orange-color);
@@ -111,3 +111,35 @@ body{
     transition-duration: .5s;
 }
 /* Our Plants section end */
+/* Flower & Plants section start */
+#flower{
+    margin: 150px 0 50px 0;
+}
+.flower-plan-container{
+    width: 90%;
+    position: relative;
+}
+.badge img{
+    width: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0%;
+    left:38%;
+    transform: translate(-0, -38%);
+}
+.flower-text{
+    padding:50px 0 0 40px;
+}
+.flower-text ul li{
+    list-style:disc;
+    color: #636465;
+    
+}
+.flower-text h2{
+    font-family: var(--font-noto-bold);
+    color: var(--black-color);
+    font-weight: 700;
+    line-height: 60px;
+}
+/* Flower & Plants section end */
