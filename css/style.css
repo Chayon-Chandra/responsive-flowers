@@ -132,14 +132,15 @@ body{
     width: 90%;
     position: relative;
 }
-.badge img{
+.badge {
     width: 15%;
     position: absolute;
     display: flex;
     justify-content: center;
-    top: 0%;
+    top: -10%;
     left:38%;
-    transform: translate(-0, -38%);
+    
+  
 }
 .flower-text{
     padding:50px 0 0 40px;
@@ -154,6 +155,19 @@ body{
     color: var(--black-color);
     font-weight: 700;
     line-height: 60px;
+}
+@keyframes badge{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    /* transform: rotate(360deg) translateX(25px) rotate(-360deg); */
+     transform: rotate(360deg);
+  }
+}
+
+.badge {
+  animation: badge 15s linear infinite;
 }
 /* Flower & Plants section end */
 /* Latest  Deals section start */
