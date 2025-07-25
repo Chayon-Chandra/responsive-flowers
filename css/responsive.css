@@ -25,7 +25,8 @@
          padding:10px ;
     }   
     .flower-text h2{
-         margin: 20px 0;
+        margin: 20px 0;
+        font-size: 1.75rem;
     }
     .flower-text br{
          display: none;
